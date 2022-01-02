@@ -1,0 +1,192 @@
+
+        <!-- two columns, main news, tab and ad column -->
+        <div class="row m-0">
+            <!-- news column, col 1 -->
+            <div class="col-md-7">
+                <!-- heading -->
+                <h4 class="border-bottom text-center m-3 m-sm-5 pb-1 pb-sm-2">Heading</h4>
+                <!-- Date and share icons -->
+                <div class="border-bottom m-3 m-sm-5 d-flex flex-column flex-sm-row justify-content-center">
+                    <p class="text-secondary">मंसिर २०७८, बिहीबार हरप्रहर न्युज</p>  
+                    <!-- share icons using share this -->
+                    <div class="sharethis-inline-share-buttons right"></div>
+                </div>
+                <!-- news -->
+                <div class="ml-5">
+                    <figure class="figure">
+                        <img class="w-75 img-fluid" src="images/1.jpg" alt="An images">
+                        <figcaption class="figure-caption pt-2">A caption for the above image.</figcaption>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quasi laboriosam est, quibusdam quam aliquid rerum accusamus quia quae, fuga quidem saepe in vel nihil exercitationem blanditiis voluptates! Vitae, commodi!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea veniam, officiis, dignissimos molestias consequuntur consequatur, itaque placeat blanditiis quos repellat laborum corporis omnis numquam ad voluptas voluptate. Ullam, voluptatibus magni!
+                    </p>
+                </div>
+
+                <!-- comment form -->
+                <form class="w-90 ml-5 mt-5 mr-5 mr-sm-0">
+                    <h4 class="border-bottom text-center pb-2 mb-2">Comment: </h4>
+                    <div class="d-flex flex-column flex-sm-row mt-3">
+                        <div class="form-group w-100 w-sm-50">
+                            <label for="name">Name: </label>
+                            <input type="name" class="form-control" id="name" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group ml-sm-2 w-100 w-sm-50">
+                            <label for="email">Email Address: </label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                        </div>
+                    </div>
+                    <label for="comment">Comment: </label>
+                    <textarea class="form-control" id="comment" rows="3"></textarea>
+                </form>
+
+                <!-- Related News -->
+                <div class="m-5">
+                    <h4 class="border-bottom text-center pb-2">Related News</h4>
+                    <div class="w-100 overflow-auto d-flex flex-column flex-lg-row">
+                        <!-- news card image top and heading bottom-->
+                        <a href="newsDisplayPage.html"  class="card align-items-center p-2 m-2 border-bottom">
+                            <img class="card-img-top w-100 hover-fade" src="images/1.jpg" alt="An image" >
+                            <h6 class="card-title text-justify p-1">मूल्यवृद्धि फिर्ता लिन झापाली विद्यार्थी संगठनहरुको माग</h6>
+                        </a>
+                        <a href="newsDisplayPage.html"  class="card align-items-center p-2 m-2 border-bottom">
+                            <img class="card-img-top w-100 hover-fade" src="images/1.jpg" alt="An image" >
+                            <h6 class="card-title text-justify p-1">मूल्यवृद्धि फिर्ता लिन झापाली विद्यार्थी संगठनहरुको माग</h6>
+                        </a>
+                        <a href="newsDisplayPage.html"  class="card align-items-center p-2 m-2 border-bottom">
+                            <img class="card-img-top w-100 hover-fade" src="images/1.jpg" alt="An image" >
+                            <h6 class="card-title text-justify p-1">मूल्यवृद्धि फिर्ता लिन झापाली विद्यार्थी संगठनहरुको माग</h6>
+                        </a>
+                        <a href="newsDisplayPage.html"  class="card align-items-center p-2 m-2 border-bottom">
+                            <img class="card-img-top w-100 hover-fade" src="images/1.jpg" alt="An image" >
+                            <h6 class="card-title text-justify p-1">मूल्यवृद्धि फिर्ता लिन झापाली विद्यार्थी संगठनहरुको माग</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- tabs, col 2 -->
+            <div class="col-md-5 border">
+                <!-- tab container -->
+                <div class = "tab-container m-5">
+                    <div class="d-flex">
+                        <div onclick = "changeTab(0)" class = "tab-container-button bg-dark text-secondary border w-sm-25 text-center p-2">Samachar</div>
+                        <div onclick = "changeTab(1)" class = "tab-container-button bg-light border w-sm-25 text-center p-2">Trending</div>
+                    </div>
+                    <div class = "tab-container-view">
+                        <!-- tab 1, Samachar -->
+                        <div class="tab-container-tab overflow hide-scroller" id="first-tab">
+                            <a href="newsDisplayPage.html" class="w-100 d-flex border-bottom mt-2">
+                                <div class="w-35 h-10">
+                                    <img src="images/1.jpg" class="w-100 h-100 img-fluid" alt="An image">
+                                </div>
+                                <div class="ml-2 w-75">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                </div>
+                            </a>
+                            <a href="newsDisplayPage.html" class="w-100 d-flex border-bottom mt-2">
+                                <div class="w-35 h-10">
+                                    <img src="images/1.jpg" class="w-100 h-100 img-fluid" alt="An image">
+                                </div>
+                                <div class="ml-2 w-75">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                </div>
+                            </a>
+                            <a href="newsDisplayPage.html" class="w-100 d-flex border-bottom mt-2">
+                                <div class="w-35 h-10">
+                                    <img src="images/1.jpg" class="w-100 h-100 img-fluid" alt="An image">
+                                </div>
+                                <div class="ml-2 w-75">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                </div>
+                            </a>
+                            <a href="newsDisplayPage.html" class="w-100 d-flex border-bottom mt-2">
+                                <div class="w-35 h-10">
+                                    <img src="images/1.jpg" class="w-100 h-100 img-fluid" alt="An image">
+                                </div>
+                                <div class="ml-2 w-75">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                </div>
+                            </a>
+                            <a href="newsDisplayPage.html" class="w-100 d-flex border-bottom mt-2">
+                                <div class="w-35 h-10">
+                                    <img src="images/1.jpg" class="w-100 h-100 img-fluid" alt="An image">
+                                </div>
+                                <div class="ml-2 w-75">
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- tab 2, Trending -->
+                        <div class="tab-container-tab  overflow hide-scroller">
+                            <div class="bg-light border-bottom" id="news-list">
+                                <ol type="1" class="pl-3">
+                                    <div class="bg-light p-3 border-bottom"><li><h5><a href="newsDisplayPage.html">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a></h5></li></div>
+                                    <div class="bg-light p-3 border-bottom"><li><h5><a href="newsDisplayPage.html">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a></h5></li></div>
+                                    <div class="bg-light p-3 border-bottom"><li><h5><a href="newsDisplayPage.html">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a></h5></li></div>
+                                    <div class="bg-light p-3 border-bottom"><li><h5><a href="newsDisplayPage.html">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a></h5></li></div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- advertisements -->
+                <div class="m-2">
+                    <div class="h-50">
+                        <img class="w-100" src="https://via.placeholder.com/400x500.png?text=Advertisement" alt="">
+                        <div class="mt-2 d-none">
+                            <h5>Expired</h5>
+                            <p>The advertisement has expired</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="row p-5 m-0" id="footer">
+            <div class="col-md-3">
+                <h2>हाम्रो बारे</h2>
+                <img class="w-100" src="images/1.jpg" id="footer-logo" alt="Logo">
+                <p>सुचना विभाग दर्ता न. २४०५/०७७-०७८</p>
+                <p>हरेक पल ताजा खबर, स्वस्थ्य मनोरञ्न र सही सुचनाका लागि एकदम अगाडि हरप्रहर न्यूज</p>
+            </div>
+            <div class="col-md-3">
+                <h2>सम्पर्क ठेगाना</h2>
+                <p>माङसेबुङ ३ इलाम (शाखा कार्यालय दमक, ५ झापा)</p>
+                <p>फोन: ९८४२७६२२१२</p>
+                <p>Harpraharnews@gmail.com</p>
+            </div>
+            <div class="col-md-3">
+                <h2>हाम्रो बारे</h2>
+                <p>संचालक: सुशिलकुमार राई</p>
+                <p>सम्पादक: कमन देवान राई</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Extra Links</h2>
+                <p><a href="#">हाम्रो बारे</a></p>
+                <p><a href="#">सम्पर्क</a></p>
+            </div>
+        </footer>
+
+        <script>
+            function changeTab(n){
+            var tabs = document.getElementsByClassName("tab-container-tab")
+            var buttons = document.getElementsByClassName("tab-container-button");
+            for(var i = 0; i < tabs.length; i++){
+                tabs[i].style.display = "none";
+                if(i==n){
+                    continue;
+                }
+                buttons[i].classList.remove("bg-dark");
+                buttons[i].classList.remove("text-secondary");
+                buttons[i].classList.add("bd-light");
+                buttons[i].classList.add("text-dark");
+               
+            }
+                tabs[n].style.display = "block";
+                buttons[n].classList.add("bg-dark");
+                buttons[n].classList.add("text-secondary");
+                buttons[n].classList.remove("bd-light");
+                buttons[n].classList.remove("text-dark");
+        }
+        </script>
+

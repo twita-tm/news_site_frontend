@@ -1,0 +1,10 @@
+.h-80{
+    height: 80vh;
+}
+.w-35{
+    width: 35%;
+}
+#news-container:hover{
+    text-decoration: none;
+    color: black;
+}
